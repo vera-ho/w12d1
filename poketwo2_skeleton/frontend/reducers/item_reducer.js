@@ -10,7 +10,7 @@ const itemReducer = (state = {}, action) => {
         //     Object.assign(nextState, action.items)
         //     return nextState;
         case RECEIVE_POKEMON:
-            debugger
+            // debugger
             nextState = action.entity.items;
             return nextState;
         default:
